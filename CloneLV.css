@@ -1,0 +1,281 @@
+/* CloneLV.css */
+body {
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+header {
+  background: #fff;
+  padding: 2px 35px;
+  border-bottom: 3px solid #fff;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container p, .header-container h1, .header-container img {
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+#lv {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 30px;
+}
+
+.main-image, .main-image1 {
+  width: 100%;
+  display: block;
+  margin: 20px 0;
+}
+
+h2, h3, h4 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.product-section{
+  background: #fff;
+  padding: 20px 0;
+}
+
+.product-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.product-card{
+  width: 200px;
+  background: #fff;
+  padding: 10px;
+  text-shadow: #000;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.product-card p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.product-card:hover , .product-card2:hover {
+  transform: translateY(-10px);
+}
+
+.product-card2 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-card2 p {
+  font-size: 16px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.product-section2 {
+  background-color: #fff;
+  padding: 30px 20px;
+  margin-top: 20px;
+}
+
+.product-container2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product-card2 {
+  width: 30%;
+  margin-bottom: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+
+.section-heading {
+  color: rgb(136, 138, 141);
+  text-align: center;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.section-subheading {
+  text-align: center;
+  font-size: 30px;
+}
+
+h5{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400px;
+  line-height: 1.3px;
+  margin: 0 0 1rem;
+}
+
+.lv-smart-link {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  color: #827f7f;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.lv-smart-link1 {
+  text-align: center;
+  margin: 20px auto;
+  color: #827f7f;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.lv-smart-link:hover {
+  background: #000;
+  color: #fff;
+}
+.lv-smart-link1:hover {
+  background: #000;
+  color: #fff;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px; /* Điều chỉnh kích thước tối thiểu nếu cần */
+    margin-right: 20px; /* Khoảng cách giữa các phần */
+}
+
+.footer-section:last-child {
+    margin-right: 0; /* Loại bỏ khoảng cách bên phải của phần tử cuối cùng */
+}
+
+.footer-heading {
+    font-size: 20px;
+    color: #827f7f;
+    margin-bottom: 10px;
+}
+
+.footer-content {
+    font-size: 0.9em;
+    color: #000;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-content ul li {
+    margin-bottom: 10px;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-content ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+.footer-form button {
+    padding: 10px 20px;
+    font-size: 0.9em;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer-form button:hover {
+    background-color: #000;
+}
+
+.footer-social-media a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 15px;
+    font-size: 1.2em;
+}
+
+.footer-social-media a:hover {
+    text-decoration: underline;
+}
+
+/* !!! */
+.footer-container3 {
+  display: flex;
+  justify-content: center; /* Căn giữa các mục trong footer */
+  gap: 30px; /* Khoảng cách giữa các mục */
+}
+
+.footer-section3 {
+  flex: 1;
+  min-width: 150px; /* Điều chỉnh kích thước tối thiểu nếu cần */
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer-section3 a {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+}
+
+.footer-section3 a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom3 {
+  padding-top: 10px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: bold;
+
+}
+
+.footer-bottom3 p {
+  margin: 5px 0;
+}
